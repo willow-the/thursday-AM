@@ -23,5 +23,8 @@
 * Bind jQuery's `keypress()` event to the textarea so that you can see when something is being typed in the textarea.
 * `console.log("a key was pressed!")` inside the function to make sure it's working
 * Now that we know when a key is typed, we want to be able to see which key is being typed...
-* Use the variable event inside your function, then `console.log(event)` below. It should look something like this ```$("textarea").keypress(function(event){
-    console.log(event)``` 
+* Use the variable event inside your function, then `console.log(event)` below. It should look something like this 
+
+`$("textarea").keypress(function(event){`
+    
+    `console.log(event)` 

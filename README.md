@@ -39,16 +39,16 @@ var key = event.key;
 
 ### Okay spoookify
 * When someone types an 'a', instead of console logging, set the background color to darkgreen. Use jQuery selectors, and the `css()` function to do this. 
-* Now let's use an `else if` so when someone types an 'r' the color of the heading turns white. 
-* Else if someone types a 'p': show the 'Click Else if you dare' div that we hid earlier. 
-* Else if someone types an 'm': fadeOut the `<body>` slowly, and then fade it back in slowly. Hint: this might take two lines of code. 
-* Else if someone types a 't': append 'hello, is anyone there?' to the body of the HTML. Enclose what you append in `<p>` tags. 
-* Else if someone types a 'c': move the textarea 80px to the right. You can do this with the css() function. 
+* Now let's use an `else if` so when someone types an 'f' the color of the heading turns white. 
+* Else if someone types a 'p': show the 'Click if you dare' div that we hid earlier. 
+* Else if someone types an 'k': `fadeOut()` the `<body>` slowly, and then fade it back in slowly. Hint: this will take two lines of code. 
+* Else if someone types a 'e': append 'hello, is anyone there?' to the body of the HTML. Enclose what you append in `<p>` tags. 
+* Else if someone types a 'i': move the textarea 80px to the right. You can do this with the css() function. 
 * Else if someone types an 's': change the text of the `<h1>` tag to say "I'M TRAPPED". The jQuery text() function might come in handy here. 
-* Else if someone types an 'i': set the background image of the `<body>` to the url of the scaryclown.jpg image inside the images folder. 
-* Else if someone types a 'v': APPEND 'Would you like to play a game' inside a `<p>` tag. 
+* Else if someone types an 'l': set the background image of the `<body>` to the url of the scaryclown.jpg image inside the images folder. 
+* Else if someone types a 'w': APPEND 'Would you like to play a game' inside a `<p>` tag. 
 * Else if someone types a 'g': PREPEND 'HELP ME!!!' inside an `<h3>` tag.
-* Else if someone types a 'w': clear out all the text in the textarea. Hint: you can use the val() function to set the value of the textarea to an empty string. 
+* Else if someone types a 'q': clear out all the text in the textarea. Hint: you can use the val() function to set the value of the textarea to an empty string. 
 * Else if someone types an 'o': remove the scary clown background image of the `<body>`. [Hint](https://stackoverflow.com/questions/6747176/how-can-i-remove-a-background-image-attribute).
 * And now, go back to Chrome and push all the keys really quickly to see what happens!
 

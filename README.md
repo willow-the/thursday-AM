@@ -3,7 +3,9 @@
 
 ### Let's start with the HTML
 * Use the tags: `<h1>`, `<textarea>` to create a page that looks something like this.
-![screen](images/screenshot.png)
+![screen](images/example.png)
+
+
 *If you are stuck trying to make the textarea bigger, here's a [hint](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_textarea)*
 * Add a `<div>` to the page that has a `<p>` inside it saying "click if you dare"
 

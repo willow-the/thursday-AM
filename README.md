@@ -25,6 +25,7 @@
 * Now that we know when a key is typed, we want to be able to see which key is being typed...
 * Use the variable event inside your function, then `console.log(event)` below. It should look something like this 
 
-`$("textarea").keypress(function(event){`
-    
-    `console.log(event)` 
+```
+$("textarea").keypress(function(event){
+    console.log(event)
+``` 

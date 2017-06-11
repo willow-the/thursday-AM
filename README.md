@@ -50,8 +50,7 @@ var key = event.key;
 * Else if someone types a 'g': PREPEND 'HELP ME!!!' inside an `<h3>` tag.
 * Else if someone types a 'q': clear out all the text in the textarea. Hint: you can use the val() function to set the value of the textarea to an empty string. 
 * Else if someone types an 'o': remove the scary clown background image of the `<body>`. [Hint](https://stackoverflow.com/questions/6747176/how-can-i-remove-a-background-image-attribute).
-* And now, go back to Chrome and push all the keys really quickly to see what happens!
-
+* And now, type the story "I was going to the movies when I saw a scary clown. I said a scary clown." in the `textarea`
 
 ### If you dare...
 * Use the `click()` function to capture a click on the 'Click if you dare' div.

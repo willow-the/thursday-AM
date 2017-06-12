@@ -18,23 +18,14 @@
 #### Just a quick check
 * Go to your `script.js` file
 * `console.log` something inside the `$(document).ready(function(){` to make sure it's working
-#### Okay, let's figure out `keypress()`
+#### Okay, let's use `keypress()`
 * Before we dive into a new jQuery function, write some code that hides the "click if you dare" `div` once the page is loaded.
-* Now, we want to know when someone types in the `<textarea>`. May I suggest, jQuery's `keypress()` event.
-* Once you've set up the `keypress()` function use `console.log("a key was pressed!")` inside the function to make sure it's working.
+* Now, we want to know when someone types in the `<textarea>`. May I suggest, jQuery's `keypress()` event. Remember to google if you need to!
+* Once you've set up the `keypress()` function use `console.log("a key was pressed!")` to make sure it's working.
 * Now that we know when a key is typed, we want to know which key is being typed...
-* Use the variable event inside your function, then `console.log(event)`  It should look something like this 
-
-```
-$("textarea").keypress(function(event){
-    console.log(event)
-``` 
-* Look through all of the functions for that event in the console. Find one that will help you determine if the user typed an "a". Hint...it starts with a "k".
-* Inside our `keypress` function, save the key in a variable, since we'll be using it over and over again to make sPoOkY things happen to our website. 
-```
-var key = event.key;
-```
-* Now, we'll use an if/else statement to figure out whether the user typed the letter 'a' or not. If the key typed is an 'a', print out "An 'a' was typed!". If any other letter is typed, print out "A key other than 'a' was typed."
+* Write an if/else statement to figure out whether the user typed the letter 'a' or not. 
+  * If the key typed is an 'a', use `console.log()` to print out "An 'a' was typed!". 
+  * If any other letter is typed, print out "A key other than 'a' was typed."
 
 
 ### Okay spoookify

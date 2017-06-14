@@ -42,13 +42,15 @@
 * Else if someone types a 'q': clear out all the text in the textarea. Hint: you can use the val() function to set the value of the textarea to an empty string. 
 * Else if someone types an 'o': remove the scary clown background image of the `<body>`. [Hint](https://stackoverflow.com/questions/6747176/how-can-i-remove-a-background-image-attribute).
 * And now, type the story in the `textarea` and watch the ghost writer emerge: 
-"It was Friday night and I was going to the movies when I saw a scary clown. I said a scary clown!!! C-L-O-W-N. AH!!" in the `textarea`
+"It was friday night and I was going to the movies when I saw a scary clown. I said a scary clown!!! c-l-o-w-n. AH!!" in the `textarea`
 
 ### If you dare...
 * Use the `click()` function to capture a click on the 'Click if you dare' div.
 * Console.log 'clicked!' inside your click function to make sure it's working.
 * Now it's time to really scare some people. When someone clicks on the 'Click if you dare' div, make your webpage do this: ![gif](images/youll_never_escape.gif)
 
+### Extension
+* Right now these effects don't work if the letters are capitalized. Can you make this work too?
 
 
 

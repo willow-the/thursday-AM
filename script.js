@@ -24,6 +24,10 @@ $(document).ready(function(){
       $("h1").text("I'M TRAPPED")
     } else if(event.which == 108 || event.which == 76){ // l is pressed
       $("body").css("background-image", "url(images/scaryclown.jpg)");
+    } else if (event.which == 119 || event.which == 87){ // w is pressed
+      $("body").append("<p>Would you like to play a game</p>");
+    } else if (event.which ==103 || event.which == 71){ // g is pressed
+      $("body").prepend("<h3>HELP ME!!!</h3>");
     }
   });
 })

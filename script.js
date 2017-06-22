@@ -11,8 +11,8 @@ $(document).ready(function(){
     }else if(letter==="p"){
       $("div").show()
     }else if(letter==="n"){
-      $("body").fadeout("slow")
-      $("body").fadein("slow")
+      $("body").fadeOut("slow")
+      $("body").fadeIn("slow")
     }else if(letter==="e"){
       $("#d").text("hello, is anyone there?")
     }else if(letter==="i"){
@@ -20,7 +20,7 @@ $(document).ready(function(){
     }else if(letter==="s"){
       $("h1").text("I'M TRAPPED")
     }else if(letter==="l"){
-      $("body").css("background-image","url(Images/scarryclown.jpg)")
+      $("body").css("background-image","url('images/scaryclown.jpg')")
     }else if(letter==="w"){
       $("#d").append("Would you like to play a game")
     }else if(letter==="g"){

@@ -39,6 +39,6 @@ $(document).ready(function(){
   })
   $("div").click(function(){
     console.log("button clicked");
-    $("*").css("background-color", "black")
+    $("*").css({"background-color": "black","background-image", "none"})
   })
 })

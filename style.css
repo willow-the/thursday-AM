@@ -1,0 +1,9 @@
+div{
+  border-color:"#fg1642"
+  border-width: 3px;
+  border-style: solid;
+  width:300px;
+  /*margin:0 auto;*/
+  padding: 10px;
+  float:right;
+}

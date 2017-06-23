@@ -1,5 +1,6 @@
 $(document).ready(function(){
   // your code goes below
+  $(".no").hide()
   console.log("hi")
   $(".clickIfYouDare").hide()
   $(".e").keypress(function(event){
@@ -11,7 +12,7 @@ $(document).ready(function(){
       console.log("a key of f was pressed")
       $("h1").css("color", "white")
     }else if (event.key == "p"){
-      $(".clickIfYouDare").show
+      $(".clickIfYouDare").show()
     }else if(event.key == "n"){
       $("body").fadeOut("3000")
       $("body").fadeIn("3000")
@@ -30,7 +31,16 @@ $(document).ready(function(){
     }else if (event.key == "q"){
       $(".e").val("")
     }else if (event.key == "o"){
-      $("body").css("background-color", "")
+      $("body").css("background-image", "unset")
+      $("body").css("background-color", "blue")
+
     }
+    $(".clickIfYouDare").on("click", function(){
+      $(".rest").hide()
+      $("body").css("background-image", "unset")
+      $("body").css("background-color", "black")
+      $(".no").css("color", "white")
+      $(".no").fadeIn(3000)
+    })
   })
 })

@@ -1,0 +1,9 @@
+body{ 
+  display: flex; flex-direction:column; justify-content: center; align-items: center; text-align:center;
+ }
+
+#clickIfYouDare{
+    border: 5px solid blue; width:300px; padding:10px; 
+
+}
+

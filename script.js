@@ -28,6 +28,8 @@ $(document).ready(function(){
         $("textarea").val(" ")
     } else if(letter==="o"){
         $("body").css("background-image", "none")
+    } else if(letter==="v"){
+        $("textarea").addClass('animated flash infinite')
     }
   })
   $("div").click(function(){

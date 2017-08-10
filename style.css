@@ -1,0 +1,24 @@
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#click {
+  border: dashed black;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  float: right;
+  font-size: 20px;
+}
